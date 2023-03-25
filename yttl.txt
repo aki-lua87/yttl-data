@@ -16,6 +16,11 @@
 "shortDescription":
 "	"
 
+://vrc.akakitune87.net
+:title
+"title":
+"	"
+
 //://youtu.be
 //:author
 //"videoDetails":
