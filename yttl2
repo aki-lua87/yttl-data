@@ -1,0 +1,88 @@
+{
+	"version": "v2",
+	"resolver": {
+		"": {
+			"site": [
+				"youtube.com",
+				"twitch.tv",
+				"soundcloud.com",
+				"nicovideo.jp"
+			]
+		},
+		"nextnex.com": {
+			"parameter": { "s": "?url=" },
+			"site": [
+				"youtube.com",
+				"m.youtube.com",
+				"youtu.be",
+				"twitch.tv",
+				"soundcloud.com"
+			]
+		},
+		"t-ne.x0.to": {
+			"parameter": { "s": "?url=" },
+			"site": [
+				"youtube.com",
+				"m.youtube.com",
+				"youtu.be",
+				"twitch.tv",
+				"soundcloud.com"
+			]
+		},
+		"nico.7mi.site": {
+			"parameter": { "s": "proxy/?" },
+			"site": [
+				"youtube.com",
+				"m.youtube.com",
+				"youtu.be",
+				"twitch.tv",
+				"soundcloud.com"
+			]
+		}
+	},
+	"site": {
+		"youtube.com": {
+			"author": {
+				"middle": [ "\"videoDetails\":", "\"author\":" ],
+				"end": { "s": "\"", "t": "\"" }
+			},
+			"title": {
+				"middle": [ "\"videoDetails\":", "\"title\":" ],
+				"end": { "s": "\"", "t": "\"" }
+			},
+			"viewCount": {
+				"middle": [ "\"videoDetails\":", "\"viewCount\":" ],
+				"end": { "s": "\"", "t": "\"" }
+			},
+			"description": {
+				"middle": [ "\"videoDetails\":", "\"shortDescription\":" ],
+				"end": { "s": "\"", "t": "\"" }
+			}
+		},
+		"twitch.tv": {
+			"author": {
+				"middle": [ "\"name\":" ],
+				"end": { "s": "\"", "t": " - Twitch\"" }
+			}
+		},
+		"vrc.akakitune87.net": {
+			"title": {
+				"middle": [ "\"title\":" ],
+				"end": { "s": "\"", "t": "\"" }
+			}
+		},
+		"soundcloud.com": {
+			"title": {
+				"end": { "s": "<title>", "t": "</title>" }
+			}
+		},
+		"nicovideo.jp": {
+			"title": {
+				"end": { "s": "<title>", "t": "</title>" }
+			},
+			"description": {
+				"end": { "s": "\"description\":", "t": "\"" }
+			}
+		}
+	}
+}
